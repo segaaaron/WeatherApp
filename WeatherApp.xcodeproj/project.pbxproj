@@ -11,6 +11,10 @@
 		54251AE5FDFB833B4E87E2E1 /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6925CB4254FAEFE2DF3A0E01 /* Pods_WeatherApp.framework */; };
 		62F9FBDFF77B0394E266308A /* Pods_WeatherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C5B6E8D1F9E9802AA29BC7 /* Pods_WeatherAppTests.framework */; };
 		8C8F842A2763B23900F05C18 /* WeatherHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F84292763B23900F05C18 /* WeatherHomeController.swift */; };
+		8C8F842C2763B40900F05C18 /* InteractorWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F842B2763B40900F05C18 /* InteractorWeather.swift */; };
+		8C8F842E2763B43300F05C18 /* PresenterWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F842D2763B43300F05C18 /* PresenterWeather.swift */; };
+		8C8F84302763B45800F05C18 /* WeatherEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F842F2763B45800F05C18 /* WeatherEntity.swift */; };
+		8C8F84322763B47B00F05C18 /* RouterWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F84312763B47B00F05C18 /* RouterWeather.swift */; };
 		8CD44422276184BA00453174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD44421276184BA00453174 /* AppDelegate.swift */; };
 		8CD44424276184BA00453174 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD44423276184BA00453174 /* SceneDelegate.swift */; };
 		8CD44429276184BA00453174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD44427276184BA00453174 /* Main.storyboard */; };
@@ -46,6 +50,10 @@
 		6925CB4254FAEFE2DF3A0E01 /* Pods_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		812FF270E851BF4856DA26A5 /* Pods-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8C8F84292763B23900F05C18 /* WeatherHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeController.swift; sourceTree = "<group>"; };
+		8C8F842B2763B40900F05C18 /* InteractorWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorWeather.swift; sourceTree = "<group>"; };
+		8C8F842D2763B43300F05C18 /* PresenterWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterWeather.swift; sourceTree = "<group>"; };
+		8C8F842F2763B45800F05C18 /* WeatherEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEntity.swift; sourceTree = "<group>"; };
+		8C8F84312763B47B00F05C18 /* RouterWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterWeather.swift; sourceTree = "<group>"; };
 		8CD4441E276184BA00453174 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD44421276184BA00453174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CD44423276184BA00453174 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +123,7 @@
 		8C8F84222763AA8200F05C18 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				8C8F842B2763B40900F05C18 /* InteractorWeather.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 		8C8F84232763AA8D00F05C18 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				8C8F842D2763B43300F05C18 /* PresenterWeather.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -129,6 +139,7 @@
 		8C8F84242763AA9600F05C18 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				8C8F842F2763B45800F05C18 /* WeatherEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -136,6 +147,7 @@
 		8C8F84252763AAA500F05C18 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				8C8F84312763B47B00F05C18 /* RouterWeather.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -471,6 +483,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD44422276184BA00453174 /* AppDelegate.swift in Sources */,
+				8C8F84302763B45800F05C18 /* WeatherEntity.swift in Sources */,
+				8C8F84322763B47B00F05C18 /* RouterWeather.swift in Sources */,
+				8C8F842C2763B40900F05C18 /* InteractorWeather.swift in Sources */,
+				8C8F842E2763B43300F05C18 /* PresenterWeather.swift in Sources */,
 				8CD44424276184BA00453174 /* SceneDelegate.swift in Sources */,
 				8C8F842A2763B23900F05C18 /* WeatherHomeController.swift in Sources */,
 			);
