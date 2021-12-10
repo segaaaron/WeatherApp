@@ -26,6 +26,7 @@ target 'WeatherApp' do
     # Pods for testing
     pod 'Quick'
     pod 'Nimble'
+    pod 'SnapshotTesting'
     # Services Mocking
     pod 'OHHTTPStubs/Swift', '~> 9.0.0'
     # RX
