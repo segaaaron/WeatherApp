@@ -1,0 +1,59 @@
+*/Breakpoints_v2.xcbkptlist
+NimbleConfig/.DS_Store
+
+#Scripts output
+scripts/hooks/pre-commit/output.txt
+splunk-otel-ios
+
+#Pods
+Pods/
+**/Pods
+*/Pods/
+*/Podfile.lock
+Podfile.lock
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+*.orig
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+## Aditional
+*/xcschememanagement.plist
+xcuserdata/
+DerivedData
+
+## Git hooks
+.githooks/post-checkout
+.githooks/post-commit
+.githooks/post-merge
+.githooks/pre-push
+
+#Bazel related stuff
+bazel-*
+BUILD.bazel
+bazel/traces
+**/Pods/Headers/**/*-Debug*/**
+**/Pods/Headers/**/*-Debug*.*
+
+#AppCode IDE
+.idea/
+
+#Metrics
+rappi.timings
+tools/SwiftInfo/Release/*
+reports
+
+#Bundler
+.bundle
+vendor
+
+#RAK
+./tmp/
+ci_tools/
+
